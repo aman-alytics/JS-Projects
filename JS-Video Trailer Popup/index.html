@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Trailer Popup</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <img
+        src="https://images.pexels.com/photos/904272/pexels-photo-904272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="movie-image"
+      />
+      <h1>Whispers of Midnight</h1>
+      <p>
+        Step into a realm where mysteries awaken and secrets come alive.
+        "Whispers of Midnight" invites you on an enigmatic journey through
+        moonlit landscapes and untold stories. Unveil the hidden truths that
+        only the night dares to reveal in this captivating cinematic experience.
+      </p>
+      <button class="btn">Watch Now</button>
+    </div>
+    <div class="trailer-container active">
+      <video src="trailer.mp4" controls></video>
+      <i class="fas fa-times fa-2x close-icon"></i>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
