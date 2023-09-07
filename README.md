@@ -29,6 +29,6 @@
 14. **Tabs Selection**:
     - Implement a tabbed interface for organizing and presenting content efficiently.<br>
 15. **Video Trailer Popup**:
-    - Enhance your site with interactive video trailer popups that engage and inform users.<br>
+    - Enhance your site with interactive video trailer popups that engage and inform users.<br><br>
 
 This "JS-Projects" repository offers a comprehensive set of basic-level projects, making it an excellent resource for beginners looking to develop their JavaScript skills. Happy coding and learning!
